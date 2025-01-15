@@ -62,7 +62,6 @@ contract Ownable {
   function transferOwnership(address newOwner) public onlyOwner {
     _transferOwnership(newOwner);
   }
-
   /**
   * @dev Transfers control of the contract to a newOwner.
   * @param newOwner The address to transfer ownership to.
